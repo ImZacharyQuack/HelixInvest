@@ -1,0 +1,147 @@
+/* 
+ * MEDIA QUERIES
+ */
+
+ @media (min-width: 575px) {
+    .container {
+      max-width: 540px;
+      width: 100%;
+      margin-inline: auto;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .container { 
+        max-width: 750px; 
+    }
+
+    .hero-banner {
+      max-width: max-content;
+      margin-inline: auto;
+    }
+  
+    .footer-bottom .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .copyright { 
+        margin-block-end: 0; 
+    }
+  
+}
+
+@media (min-width: 992px) {
+  
+    .container { 
+        max-width: 960px; 
+    }
+  
+    .header { 
+        padding-block: 5px; 
+    }
+  
+    .header.active { 
+        top: -60px; 
+    }
+  
+    .header > .container { 
+        gap: 50px; 
+    }
+  
+    .nav-toggle-btn { 
+        display: none; 
+    }
+  
+    .navbar, .navbar.active {
+        all: unset;
+        margin-inline-end: auto;
+    }
+  
+    .navbar-list {
+        display: flex;
+        align-items: center;
+        margin-left: 150px;
+    }
+  
+    .navbar-item:not(:last-child) { 
+        border-block-end: none; 
+    }
+
+    .navbar-item a {
+        font-size: 20px;
+        padding: 5px 12px;
+        color: var(--white);
+    }
+  
+    .navbar-link:is(:hover, :focus, .active) {
+        color: var(--white);
+    }
+
+    .hero .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 30px;
+    }
+  
+    .hero-content { 
+        margin-block-end: 0; 
+    }
+
+    .market-tab { 
+        padding-block-end: 0; 
+    }
+
+    .app { 
+        padding-block: 0; 
+    }
+  
+    .app .container {
+      display: grid;
+      grid-template-columns: 0.8fr 1fr;
+      align-items: flex-end;
+      gap: 30px;
+    }
+  
+    .app-banner { 
+        margin-block-start: 0; 
+    }
+  
+    .app-content { 
+        margin-block: 50px; 
+    }
+  
+}
+
+  
+@media (min-width: 1200px) {
+
+    .container { 
+        max-width: 1280px; 
+    }
+
+    .header.active { 
+        top: -64px; 
+    }
+  
+    .navbar-link { 
+        font-size: unset; 
+    }
+
+    .hero .container { 
+        gap: 100px; 
+    }
+  
+    .trend-tab .tab-content { 
+        grid-template-columns: repeat(4, 1fr); 
+    }
+
+    .app-content { 
+        margin-block: 100px; 
+    }
+  
+}
