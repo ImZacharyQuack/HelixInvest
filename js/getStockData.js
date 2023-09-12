@@ -1,15 +1,15 @@
 
-const appleURL = 'https://alpha-vantage.p.rapidapi.com/query?interval=60min&function=TIME_SERIES_INTRADAY&symbol=AAPL&datatype=json&output_size=compact';
-const teslaURL = 'https://alpha-vantage.p.rapidapi.com/query?interval=60min&function=TIME_SERIES_INTRADAY&symbol=TSLA&datatype=json&output_size=compact';
-const metaURL = 'https://alpha-vantage.p.rapidapi.com/query?interval=60min&function=TIME_SERIES_INTRADAY&symbol=META&datatype=json&output_size=compact';
-const amazonURL = 'https://alpha-vantage.p.rapidapi.com/query?interval=60min&function=TIME_SERIES_INTRADAY&symbol=AMZN&datatype=json&output_size=compact';
-const nvidiaURL = 'https://alpha-vantage.p.rapidapi.com/query?interval=60min&function=TIME_SERIES_INTRADAY&symbol=NVDA&datatype=json&output_size=compact';
+const appleURL = 'appleUrl';
+const teslaURL = 'teslaUrl';
+const metaURL = 'metaUrl';
+const amazonURL = 'amazonUrl';
+const nvidiaURL = 'nvidiaUrl';
 
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'b0ff5379a1mshe406b896d7db93cp18fd47jsn72a3e4394f99',
-		'X-RapidAPI-Host': 'alpha-vantage.p.rapidapi.com'
+		'X-RapidAPI-Key': 'apiKey',
+		'X-RapidAPI-Host': 'host'
 	}
 };
 
