@@ -1,6 +1,6 @@
 # HelixInvest Personal Project
 
-### Wesbite: helixinvest.atwebpages.com
+### Wesbite: http://helixinvest.atwebpages.com
 
 #### HelixInvest is a website where you can view 5 stocks (currently hand chosen) daily prices & price change percent over a 24-hour period with a graph, also with a very basic login/logout/sign up system.
 
