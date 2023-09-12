@@ -1,9 +1,9 @@
 <?php
 
-$host = "fdb1032.awardspace.net";
-$dbname = "4368459_helixdatabase";
-$username = "4368459_helixdatabase";
-$password = "a6x@6j9@qsq77GP";
+$host = "host";
+$dbname = "db_name";
+$username = "db_user";
+$password = "pass";
 
 $mysqli = new mysqli(hostname: $host,
                      username: $username,
